@@ -6,18 +6,23 @@ There is no source code here. The app checks this repository for new versions an
 
 ## Download
 
-No version has been published yet. When one is, the newest installer will be on the **[Releases](../../releases/latest)** page:
+Get the newest installer from the **[Releases](../../releases/latest)** page:
 
 | System | File |
 |---|---|
-| Windows 10 / 11 | `ClipForge-AI_x.y.z_x64-setup.exe` |
-| macOS (Apple Silicon) | `ClipForge-AI_x.y.z_aarch64.dmg` |
+| Windows 10 / 11 (64-bit) | `ClipForge-AI_x.y.z_x64-setup.exe` |
+| macOS (Apple Silicon: M1 or newer) | `ClipForge-AI_x.y.z_aarch64.dmg` |
 
-File names are placeholders until the first release.
+`SHA256SUMS.txt` on the same page lets you check that a download is intact.
 
 ## Installing
 
-Installation notes for each system will be added with the first release.
+The installers are not signed with a paid certificate yet, so you will see a warning the first time:
+
+- **Windows:** *"Windows protected your PC"* appears. Click **More info**, then **Run anyway**. The installer works for your user only and does not ask for administrator rights.
+- **macOS:** open the `.dmg`, drag ClipForge AI to Applications. The first time, macOS says it cannot be opened: go to **System Settings → Privacy & Security**, scroll down and click **Open Anyway**.
+
+On first launch, ClipForge guides you through a short setup and asks before it downloads any large AI model.
 
 ## Updating
 
